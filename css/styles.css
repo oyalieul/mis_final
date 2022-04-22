@@ -1,0 +1,53 @@
+header{
+    background-color: black;
+    color: white;
+    height: 60px;
+}
+
+.searchDiv{
+    padding: 150px 0;
+    background-color: rgb(10, 10, 94);
+    border-radius: 10px;
+    margin-top: 30px;
+    height: 400px;
+}
+#textInput{
+    padding:10px;
+    border-radius: 50px;
+    text-align: center;
+    width:40%;
+    background-color: aliceblue;
+    border:none;
+    outline: none;
+}
+
+#submitBtn{
+    border-radius: 30px;
+    background-color: brown;
+    color: white;
+    border: none;
+    padding:10px;
+    width: 100px;
+}
+
+#submitBtn:hover{
+    background-color: rgb(97, 25, 25);
+    
+}
+
+.self-card{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding:10px;
+    overflow: auto;
+    height:600px;
+}
+
+footer{
+    background-color: black;
+    height: 160px;
+    margin-top: 40px;
+    color:white;
+    padding:70px;
+}
+
