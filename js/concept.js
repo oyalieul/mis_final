@@ -38,6 +38,7 @@ function load(x){
         btnDiv.innerHTML=`<div id="showallbtn"><button class="submitBtn">Show All</button></div>`;
         document.getElementById('showallbtn').addEventListener('click', function(e){
             e.preventDefault();
+            btnDiv.innerHTML="";
             showMore(x);
         });
         
